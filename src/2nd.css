@@ -90,7 +90,9 @@
   margin: 10px 0px;
 }
 .maincontainer .recomendationsh2 {
-  margin: 15px 0px 15px 7.5%;
+  margin: 15px 0px 15px 0%;
+  position: relative;
+  left: 7.6%;
 }
 .maincontainer .recomendations h3 {
   margin: 10px 0px;
