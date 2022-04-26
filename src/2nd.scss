@@ -1,0 +1,101 @@
+.leftcontainer {
+    width: 10%;
+    height: 1200px;
+    background: url("../photos/small.png") 0 0/100% 100% no-repeat;
+
+}
+.leftcontainer:after{
+    content: "";
+    display: block;
+    position: relative;
+    left: 120px;
+    top: 25px;
+    background: url("../photos/треугольник.png") no-repeat;
+    background-position: left 100% bottom 100%; 
+    width: 120px;
+    height: 150px;
+    border-radius: 0px 0px 0px 80%;
+}
+.maincontainer {
+    width: 90%;
+    color: grey;
+    .name > h2 {
+        width: 50%;
+        text-align: left;
+        color: black;
+        font-size: 46px;
+        span{ font-weight: bold;} }
+        .name_P{ 
+            width: 50%;
+            text-align: left;
+            text-transform: capitalize;
+            font-size: 26px;}
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 10px 100px 0px;
+        background-color: rgb(243, 243, 242);
+        border-radius: 0% 0% 70% 20%;
+    }
+    .flex_workexp {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 0px 0px 5%;
+    }
+    .workexp,
+    .programms{
+        width: 45%;
+    }
+    .workexp > div > div {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px;
+    }
+    .workexp h3 {
+        padding-bottom: 10px;
+    }
+    .programms p {
+        text-transform: uppercase;
+        width: 40px;
+        text-align: left;
+    }
+    .programms div {
+        margin: 15px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .programms input {
+        margin: 0px 40% 0px 0px;
+    }
+    .recomendations h2 {
+        margin: 30px 0px 0px 0px;
+        width: 100%;
+       
+    }
+    .recomendations {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .recomendations div {
+        width: 35%;
+        margin: 10px 0px;
+    }
+    .recomendationsh2 {
+        margin: 15px 0px 15px 7%;
+    }
+    .recomendations h3 {
+        margin: 10px 0px;
+    }
+    .recomendationsh2::before {
+        content: "";
+        display: block;
+        background-color: gray;
+        height: 1px;
+        width: 47%;
+        margin: 55px 0px ;
+
+    }
+}

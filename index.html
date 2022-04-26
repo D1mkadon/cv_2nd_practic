@@ -5,24 +5,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/iconsfont.css">
+    <link rel="stylesheet" href="./src/slider.css">
     <title>Document</title>
 </head>
 
 <body>
-    <main>
+    <div class="Container">
         <div class="Container1">
-            <h2 class="text_blue">12312312312312313212312132132</h2>
-            <h3 class="text_blue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, dolore.</h3>
-            <h4> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolore delectus. Assumenda molestiae provident est magni culpa? Neque minima a eos non. Autem sint modi aliquid commodi consequuntur reiciendis laborum!
-
-            </h4>
+            <img src="./photos/portfoliophoto.png" alt="portfoliophoto">
+            <div class="Contacts">
+                <h2 class="fz26 ls10px">Контакты</h2>
+                <div> <img src="./Icons/Тел.svg" alt="">
+                    <h3>+123 456 789 123</h3>
+                </div>
+                <div> <img src="./Icons/почта.svg" alt="">
+                    <h3>name@gmail.com</h3>
+                </div>
+                <div> <img src="./Icons/сайт.svg" alt="">
+                    <h3>www.yourwebsite.com</h3>
+                </div>
+            </div>
+            <div>
+                <h2 class="fz26">Образование</h2>
+                <ul>
+                    <li>
+                        <h3 class="fz20">ITVDN</h3>
+                        <h4>Javascript Developer</h4>
+                        <p class="fw400">Сентябрь'20-Январь 21'</p>
+                    </li>
+                    <li>
+                        <h3 class="fz20">CyberBionic</h3>
+                        <h4>HTML5&CSS3</h4>
+                        <p class="fw400">Август'20-Сентябрь 20'</p>
+                    </li>
+                    <li>
+                        <h3 class="fz20">НАУ</h3>
+                        <h4>Кибербезопасность</h4>
+                        <p class="fw400">Сентябрь'15-Июнь 18'</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h2 class="fz26 ls10px">Навыки</h2>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
+            </div>
         </div>
         <div class="Container2">
+            <div class="name">
+                <h1>Иван <span>Иванов</span></h1>
+                <p class="name_P">frontend developer</p>
+            </div>
 
+            <div class="main">
+                <div class="about_me">
+                    <h2 class="text_blue">цель/обо мне</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium enim fuga,
+                        a totam sequi reiciendis voluptatibus cupiditate quis ea veritatis voluptates harum omnis.
+                        Aperiam
+                        tenetur deleniti dignissimos
+                        excepturi maxime placeat!</p>
+                </div>
+                <div class="workexp">
+                    <h2 class="text_blue">опыт работы</h2>
+                    <div>
+                        <div>
+                            <h2 class="text_black bold fz20">Должность</h2>
+                            <p class="text_bluesmall">Июнь'20-Январь'21</p>
+                        </div>
+                        <h3 class="text_black bold">Компания</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum hic explicabo est atque
+                            velit
+                            voluptatem unde optio et nostrum, sunt quibusdam aliquam beatae sed porro voluptatibus ut
+                            exercitationem minima?</p>
+                    </div>
+                    <div>
+                        <div>
+                            <h2 class="text_black bold fz20">Должность</h2>
+                            <p class="text_bluesmall">Июнь'20-Январь'21</p>
+                        </div>
+                        <h3 class="text_black bold">Компания</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum hic explicabo est atque
+                            velit
+                            voluptatem unde optio et nostrum, sunt quibusdam aliquam beatae sed porro voluptatibus ut
+                            exercitationem minima?</p>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h2 class="text_black bold fz20">Должность</h2>
+                            <p class="text_bluesmall">Июнь'20-Январь'21</p>
+                        </div>
+                        <h3 class="text_black bold">Компания</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum hic explicabo est atque
+                            velit
+                            voluptatem unde optio et nostrum, sunt quibusdam aliquam beatae sed porro voluptatibus ut
+                            exercitationem minima?</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <p class="text_black bold ">Мои социальные сети</p> 
+                    <div class="icon-fb  "></div>
+                    <div class="icon-linkidin"></div>
+                    <div class="icon-Twitter"></div>
+                   
+                </div>
+                <a href="/2nd.html" class="bold text_black">next page...</a>
+            </div>
         </div>
-    </main>
 
+    </div>
+    </div>
+ <script>
+     const rangeInputs = document.querySelectorAll('input[type="range"]') 
+    function handleInputChange(e) {
+      let target = e.target
+      if (e.target.type !== 'range') {
+        target = document.getElementById('range')
+      } 
+      const min = target.min
+      const max = target.max
+      const val = target.value
+      
+      target.style.backgroundSize = (val - min) * 100 / (max - min) + '% 100%'
+    }
+    
+    rangeInputs.forEach(input => {
+      input.addEventListener('input', handleInputChange)
+    })
+ </script>
 </body>
 
 </html>
