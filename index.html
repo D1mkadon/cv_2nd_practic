@@ -49,11 +49,16 @@
             </div>
             <div class="skills">
                 <h2 class="fz26 ls10px">Навыки</h2>
-                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
-                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
-                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
-                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
-                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range" oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range"
+                        oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range"
+                        oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range"
+                        oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range"
+                        oninput="rangenumber.value=value"></h3>
+                <h3>coding <input type="range" class="range" value="70" min="0" max="100" id="range"
+                        oninput="rangenumber.value=value"></h3>
             </div>
         </div>
         <div class="Container2">
@@ -109,36 +114,37 @@
                     </div>
                 </div>
                 <div class="social">
-                    <p class="text_black bold ">Мои социальные сети</p> 
+                    <p class="text_black bold ">Мои социальные сети</p>
                     <div class="icon-fb  "></div>
                     <div class="icon-linkidin"></div>
                     <div class="icon-Twitter"></div>
-                   
+
                 </div>
-                <a href="/2nd.html" class="bold text_black" target="_blank">next page...</a>
+                <a href="./2nd.html" class="bold text_black" target="_blank">next page...</a>
             </div>
         </div>
 
     </div>
     </div>
- <script>
-     const rangeInputs = document.querySelectorAll('input[type="range"]') 
-    function handleInputChange(e) {
-      let target = e.target
-      if (e.target.type !== 'range') {
-        target = document.getElementById('range')
-      } 
-      const min = target.min
-      const max = target.max
-      const val = target.value
-      
-      target.style.backgroundSize = (val - min) * 100 / (max - min) + '% 100%'
-    }
-    
-    rangeInputs.forEach(input => {
-      input.addEventListener('input', handleInputChange)
-    })
- </script>
+    <script>
+        const rangeInputs = document.querySelectorAll('input[type="range"]')
+
+        function handleInputChange(e) {
+            let target = e.target
+            if (e.target.type !== 'range') {
+                target = document.getElementById('range')
+            }
+            const min = target.min
+            const max = target.max
+            const val = target.value
+
+            target.style.backgroundSize = (val - min) * 100 / (max - min) + '% 100%'
+        }
+
+        rangeInputs.forEach(input => {
+            input.addEventListener('input', handleInputChange)
+        })
+    </script>
 </body>
 
 </html>
